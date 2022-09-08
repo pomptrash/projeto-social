@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+
+.acesse {
+    display: block;
+    padding: 10px;
+    background-color: lightblue;
+    text-align: center;
+    color: lightpink;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 1px 0px black, -1px 0px black, 0px 1px black, 0px -1px black;
+}
